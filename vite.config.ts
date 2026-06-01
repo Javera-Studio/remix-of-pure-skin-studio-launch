@@ -10,8 +10,9 @@ export default defineConfig({
     tsConfigPaths(),
     tailwindcss(),
     tanstackStart({
-      server: {
-        preset: "vercel",
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
       },
     }),
     viteReact(),

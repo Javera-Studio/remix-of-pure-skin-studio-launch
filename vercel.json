@@ -1,4 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "framework": null
+  "outputDirectory": "dist/client",
+  "framework": null,
+  "cleanUrls": true
 }
